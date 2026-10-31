@@ -1,0 +1,19 @@
+# Local notebook execution environments and caches
+.stage1_runtime/
+.stage1_jupyter/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+
+# Database extracts and generated research evidence
+stage1_outputs/
